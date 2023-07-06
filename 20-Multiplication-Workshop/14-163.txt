@@ -1,4 +1,4 @@
--- 20-Multiplication-Workshop - SIZE 14/15 - SPEED 163/109 --
+-- Size 14/15, Speed 163/109 --
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
     JUMP     b
