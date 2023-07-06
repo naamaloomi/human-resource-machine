@@ -1,0 +1,37 @@
+-- Size 20/17, Speed 160/167 --
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    BUMPUP   14
+    COPYTO   13
+    INBOX   
+    COPYTO   0
+    OUTBOX  
+a:
+b:
+    COPYFROM 14
+    COPYTO   13
+    BUMPDN   13
+    INBOX   
+    COPYTO   [14]
+c:
+    SUB      [13]
+    JUMPZ    a
+    BUMPDN   13
+    JUMPN    d
+    COPYFROM [14]
+    JUMP     c
+d:
+    COPYFROM [14]
+    OUTBOX  
+    BUMPUP   14
+    JUMP     b
+
+
+DEFINE LABEL 13
+eJwTZmBg0Kss18srZokCMhneVJrosHVc87/YX5oG4hfXctnsr7tU9b7O/DCIb1ccsmpqWdOWUw3OZwJa
+uI91tV3a79CVuLmqZ9EKhlEwCkbBkAMARR4dNQ;
+
+DEFINE LABEL 14
+eJzjZWBgeFKjY3u8+mlqQQXTJJXy7PXB5ckHgMIMYTUbTHbkv0/cmvWvHMRnrLtkurHzaCHDIAdXV99r
+NlnjWOW+2qSQd+WF3IF2zygYBYMZAAByZBw+;
+

@@ -1,0 +1,40 @@
+-- Size 17/16, Speed 390/393 --
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    JUMP     b
+a:
+    COPYFROM 16
+    OUTBOX  
+b:
+    COPYFROM 14
+    COPYTO   16
+    COPYTO   17
+    INBOX   
+    COPYTO   15
+c:
+d:
+    COPYFROM [17]
+    JUMPZ    a
+    SUB      15
+    JUMPZ    e
+    BUMPUP   17
+    JUMP     d
+e:
+    BUMPUP   16
+    BUMPUP   17
+    JUMP     c
+
+
+DEFINE LABEL 15
+eJzTYmBgEHGyDl5lnx4w1fp7gKL5wXBNE+n4u0aCyZcMPuYVG+S33DXS6w80XzU9w4FlfpLH1PlALQy+
+YWrRNWGKba6Rp2fUR0+dfzpm+wLT+MdzHdMmtt7KeF40IzMuEaTOrCwmRKVcqzS4PHMRiP+ovCvufMWj
+CO8qg/Dk5qCIrrauuIr2p6ke7Ql5ua0zS6wbNlTeqrpUdabVshukfn3Liq6VPelTGUbBKBgFNAEAb5dD
+sA;
+
+DEFINE LABEL 16
+eJzjYmBgyCuuC+0uiUv0rvpXHtDyYMKe7oNzgMIMDzufpro1NeXz5D2eyzAKRsEoGJYAAPKlEQY;
+
+DEFINE LABEL 17
+eJzjZ2BgsMmzTTiQw9BqmdmwHMhlcCuoC7Ur7ghMK0sP+F8hGaRWYxB+qfZGzIS66enFtRdyg8u1SjXz
+d5cyjIJRMAqGPAAAKBIWbw;
+
