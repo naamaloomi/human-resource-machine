@@ -1,0 +1,24 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX   
+b:
+    COPYTO   2
+    COPYFROM [2]
+    OUTBOX  
+    BUMPUP   2
+    COPYFROM [2]
+    JUMPN    a
+    JUMP     b
+
+
+DEFINE LABEL 2
+eJzLYmBguC19dNtJmelrYtQ1Mt4bPtc1MXsv88nssLyiebbqJ7PiyGzjK+3FBkFzgUoZNqguq/1j0VID
+YqsGa5VWBQoXBPnJ5kS4rcsJc9QqXWDr17zJpqb3kU3HtFX2QXPfOT+e+9N1/uzfXgETNvrpND0Obkha
+ExbgvSRynbpGxF5bAX/FNlNf94Ug8+LS+ytaUmeWPEiYWTIxiqtxTVjhRNmwmJk1YdsXzAyXXpITI70k
+JslgTlx6wIStWQytO/J3ZigWWQdLlgrKHSrca3sqLyR1ba5OE08exK1vKnuyM6r9mmdU88/OqP7a8b26
+pSahrifbuiEkdWlTQ9LUjsMpIHW+E7OzcqZ/zAuafSFXd65sTvp8tvRj86Xjb8y7EdM4+0ZM/bTp6TUT
+P1f3T8hviZ+wv99q0pbJH6Zem/Jg9pbJmxcETACZcX6ze8zUje4xdusakg6t2ZkRuDasaMWG5Gq5XZbd
+HXtUJmvu+TH1zq5V049uPD0DpH7e9YPhrufVop1PrYl/c8woZdORW5nBR0wKe4/1V1w8FVHvfuVrx7Ir
+J7vdr8ztu3OmcCLDKBgFNAIA/jbAtg;
+
