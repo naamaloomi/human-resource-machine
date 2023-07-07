@@ -1,18 +1,21 @@
--- Size 10/10, Speed 72/72 --
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
 a:
     INBOX   
-    JUMPZ    d
-b:
+    COPYTO   1
+    COPYFROM 9
     COPYTO   0
     INBOX   
-    JUMPZ    c
-    ADD      0
+    COPYTO   2
+b:
+    COPYFROM 1
+    SUB      2
+    JUMPN    c
+    COPYTO   1
+    BUMPUP   0
     JUMP     b
 c:
     COPYFROM 0
-d:
     OUTBOX  
     JUMP     a
 

@@ -1,4 +1,3 @@
--- Size 34/34, Speed 126/78 --
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
 a:

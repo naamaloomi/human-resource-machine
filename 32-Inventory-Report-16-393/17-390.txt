@@ -1,4 +1,3 @@
--- Size 16/16, Speed 404/393 --
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
     JUMP     b
@@ -12,16 +11,17 @@ b:
     INBOX   
     COPYTO   15
 c:
+d:
     COPYFROM [17]
     JUMPZ    a
     SUB      15
     JUMPZ    e
-d:
     BUMPUP   17
-    JUMP     c
+    JUMP     d
 e:
     BUMPUP   16
-    JUMP     d
+    BUMPUP   17
+    JUMP     c
 
 
 DEFINE LABEL 15

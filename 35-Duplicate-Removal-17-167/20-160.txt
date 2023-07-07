@@ -1,4 +1,3 @@
--- Size 20/17, Speed 160/167 --
 -- HUMAN RESOURCE MACHINE PROGRAM --
 
     BUMPUP   14
